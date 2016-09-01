@@ -22,6 +22,7 @@ You can use Python on GNU/Linux, Windows, FreeBSD, Macintosh, Solaris, OS/2, Ami
 
 ##4.1 Using The Interpreter Prompt
 > How to Quit the Interpreter Prompt?
+
 ```
 If you are using a GNU/Linux or OS X shell, you can exit the interpreter prompt by pressing:
  ctrl+d or entering exit()
@@ -167,3 +168,21 @@ can be written as:
 a = 2
 a *= 3
 ```
+#7. Control Flow
+The length of the input string can be found out using the built-in `len` function
+
+Remember that the `break` statement can be used with the for `loop` as well.
+
+#8. Function
+Functions are defined using the `def` keyword
+
+
+ `def func(a, b=5)` is valid, but `def func(a=5, b)` is not valid.
+
+`a tuple`
+
+`a dictionary`
+
+The `pass` statement is used in Python to indicate an empty block of statements.
+
+There is a built-in function called `max` that already implements the 'find maximum' functionality, so use this built-in function whenever possible.
