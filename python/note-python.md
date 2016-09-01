@@ -217,23 +217,23 @@ You can use the built-in `dir` function to list the identifiers that an object d
 
 #11. Tuple
 
-1.Hàm cmp(tuple1, tuple2)
+1.Hàm `cmp(tuple1, tuple2)`
 
 So sánh hai tuple với nhau
 
-2	Hàm len(tuple)
+2	Hàm `len(tuple)`
 
 Trả về độ dài của tuple
 
-3	Hàm max(tuple)
+3	Hàm `max(tuple)`
 
 Trả về item có giá trị lớn nhất từ một tuple đã cho
 
-4	Hàm min(tuple)
+4	Hàm `min(tuple)`
 
 Trả về item có giá trị nhỏ nhất từ một tuple đã cho
 
-5	Hàm tuple(seq)
+5	Hàm `tuple(seq)`
 
 chyển một dãy thành một tuple
 
@@ -244,5 +244,20 @@ chyển một dãy thành một tuple
 * dùng để định dạng string
 
 #12. Files
-Note that we use `sys.stdout.flush()`` after `print` so that it prints to the screen
+Note that we use `sys.stdout.flush()` after `print` so that it prints to the screen
 immediately.
+
+#17. WHAT NEXT
+#17.1 Next project
+[intermediate Python Projects](https://openhatch.org/wiki/Intermediate_Python_Workshop/Projects)
+
+[make a website with django](http://wiki.openhatch.org/Make_a_website_with_Django)
+
+
+#17.2 Create a website
+* [Flask Official Quickstart](http://flask.pocoo.org/docs/quickstart/)
+* [The Flask Mega-Tutorial](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
+* [Example Flask Projects](https://github.com/mitsuhiko/flask/tree/master/examples)
+
+#17.3
+[Python Interview Q&A](http://dev.fyicenter.com/Interview-Questions/Python/index.html)
