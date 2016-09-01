@@ -186,3 +186,63 @@ Functions are defined using the `def` keyword
 The `pass` statement is used in Python to indicate an empty block of statements.
 
 There is a built-in function called `max` that already implements the 'find maximum' functionality, so use this built-in function whenever possible.
+##8.1 Docstrings
+```
+def print_max(x,y):
+        '''Prints the maximum of two numbers.
+The two values must be integers.'''
+        #convert to integers, if possible
+        x=int(x)
+        y=int(y)
+        if x>y:
+                print x, 'is maximum'
+        else:
+                print y,'is maximum'
+print (3,5)
+print_max(3,5)
+print print_max.__doc__
+```
+
+`print print_max.__doc__` DocStrings are an important tool that you should make use of since it helps to document the program better and makes it easier to understand
+
+#9. Module
+##9.1 A module's `name`
+##9.2 The `dir` function
+You can use the built-in `dir` function to list the identifiers that an object defines.
+
+#10
+##10.1 Dictionary
+##10.2 Set
+##10.3 References
+
+#11. Tuple
+
+1.Hàm cmp(tuple1, tuple2)
+
+So sánh hai tuple với nhau
+
+2	Hàm len(tuple)
+
+Trả về độ dài của tuple
+
+3	Hàm max(tuple)
+
+Trả về item có giá trị lớn nhất từ một tuple đã cho
+
+4	Hàm min(tuple)
+
+Trả về item có giá trị nhỏ nhất từ một tuple đã cho
+
+5	Hàm tuple(seq)
+
+chyển một dãy thành một tuple
+
+**tại sao sử dụng Tuple?**
+
+* trình xử lý tuple nhanh hơn list
+* dl an toàn hơn vì tuple không thay đổi (immutable)
+* dùng để định dạng string
+
+#12. Files
+Note that we use `sys.stdout.flush()`` after `print` so that it prints to the screen
+immediately.
