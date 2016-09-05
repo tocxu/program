@@ -211,8 +211,64 @@ print print_max.__doc__
 You can use the built-in `dir` function to list the identifiers that an object defines.
 
 #10
-##10.1 Dictionary
+##10.1 Dictionary(Từ điển)
+giống với list nhưng khác ở chỗ:
+
+chỉ mục của list là số còn của từ điển là chuỗi (string).
+
+Tạo từ điển:
+```
+a= [khoa1:giaitri,khoa2:giaitri2]
+```
+Ví dụ:
+```
+>>> a= {'cho':'meo','ga':'vit'}
+>>>a
+['cho':'meo','ga':'vit']
+>>>a['ga'] # cách thao tác với 1 phần tử của từ điển
+'vit'
+```
+
+Từ điển có 3 phương thức là:
+
+  `key()`: trả về một ds các khóa được dùng trong từ điển, theo một thứ tự bất kỳ
+
+  `sort()`: phương thức sắp xếp của từ điển
+
+  `has_key()`:kiểm tra xem từ khóa có trong từ điển hay không.
+
+  để xóa một cặp giá trị: `del()`
+
+*việc thực thi* một hàm tạo ra một bảng ký hiệu mới dùng cho các biến cục bộ của hàm. Chính xác hơn, mọi phép gán biến trong một hàm chứa giá trị vào bảng ký hiệu cục bộ, các tham chiếu biến sẽ trước hết tìm trong bảng ký hiệu cục bộ rồi trong bảng ký hiệu toàn cục, và trong bảng tên có sẵn. => biến toàn cục k được gán giá trị 
 ##10.2 Set
+Một nhóm các phần tử không trùng lặp.
+
+Thường được dùng để loại bỏ các phần tử trùng lặp trong ds, hay dùng để ktra nhân viên, hội viên
+```
+>>>a = ['a','b','a','d','c','d']
+>>>taphop = set(a)
+set(['a', 'c', 'b', 'd']) #nó đã bỏ đi các phần tử giống nhau
+>>>'a' in taphop #kiểm tra xem a có phải phần tử của tập hợp không
+True
+```
+Với kiểu dữ liệu tập hợp, chúng ta cũng có 4 toán tử tác động tới tập hợp: hợp, giao, hiệu, và hiệu đối xứng.
+
+```
+>>> a = set('abracadabra')
+>>> b = set('alacazam')
+>>> a                                  # những kí tự có trong a
+set(['a', 'r', 'b', 'c', 'd'])
+>>> a - b                              # kí tự có trong a nhưng không có trong b
+set(['r', 'd', 'b'])
+>>> a | b                              # kí tự có ở a hoặc b
+set(['a', 'c', 'r', 'd', 'b', 'm', 'z', 'l'])
+>>> a & b                              # kí tự có cả ở a và b
+set(['a', 'c'])
+>>> a ^ b                              # kí tự có ở a hoặc b nhưng không có ở cả hai
+set(['r', 'd', 'b', 'm', 'z', 'l'])
+```
+
+
 ##10.3 References
 
 #11. Tuple
