@@ -239,7 +239,7 @@ Từ điển có 3 phương thức là:
 
   để xóa một cặp giá trị: `del()`
 
-*việc thực thi* một hàm tạo ra một bảng ký hiệu mới dùng cho các biến cục bộ của hàm. Chính xác hơn, mọi phép gán biến trong một hàm chứa giá trị vào bảng ký hiệu cục bộ, các tham chiếu biến sẽ trước hết tìm trong bảng ký hiệu cục bộ rồi trong bảng ký hiệu toàn cục, và trong bảng tên có sẵn. => biến toàn cục k được gán giá trị 
+*việc thực thi* một hàm tạo ra một bảng ký hiệu mới dùng cho các biến cục bộ của hàm. Chính xác hơn, mọi phép gán biến trong một hàm chứa giá trị vào bảng ký hiệu cục bộ, các tham chiếu biến sẽ trước hết tìm trong bảng ký hiệu cục bộ rồi trong bảng ký hiệu toàn cục, và trong bảng tên có sẵn. => biến toàn cục k được gán giá trị
 ##10.2 Set
 Một nhóm các phần tử không trùng lặp.
 
